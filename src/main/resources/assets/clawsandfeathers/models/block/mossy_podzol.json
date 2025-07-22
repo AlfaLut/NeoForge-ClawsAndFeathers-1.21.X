@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "block/dirt",
+    "down": "minecraft:block/dirt",
+    "up": "clawsandfeathers:block/mossy_podzol",
+    "north": "clawsandfeathers:block/mossy_podzol_side",
+    "east": "clawsandfeathers:block/mossy_podzol_side",
+    "south": "clawsandfeathers:block/mossy_podzol_side",
+    "west": "clawsandfeathers:block/mossy_podzol_side"
+  }
+}

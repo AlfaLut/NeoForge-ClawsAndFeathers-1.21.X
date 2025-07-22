@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "block/dirt",
+    "down": "clawsandfeathers:block/loam",
+    "up": "clawsandfeathers:block/loam",
+    "north": "clawsandfeathers:block/loam",
+    "east": "clawsandfeathers:block/loam",
+    "south": "clawsandfeathers:block/loam",
+    "west": "clawsandfeathers:block/loam"
+  }
+}

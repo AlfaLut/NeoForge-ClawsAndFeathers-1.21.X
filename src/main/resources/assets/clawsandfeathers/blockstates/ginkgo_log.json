@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "clawsandfeathers:block/ginkgo_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "clawsandfeathers:block/ginkgo_log"
+    },
+    "axis=z": {
+      "model": "clawsandfeathers:block/ginkgo_log_horizontal",
+      "x": 90
+    }
+  }
+}
