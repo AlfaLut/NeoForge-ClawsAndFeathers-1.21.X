@@ -10,12 +10,12 @@ import net.minecraft.resources.ResourceLocation;
 
 public class OstromiaRenderer extends MobRenderer<OstromiaEntity, OstromiaModel<OstromiaEntity>> {
     public OstromiaRenderer(EntityRendererProvider.Context context) {
-        super(context, new OstromiaModel<>(context.bakeLayer(OstromiaModel.LAYER_LOCATION)), 0.25f);;
+        super(context, new OstromiaModel<>(context.bakeLayer(OstromiaModel.LAYER_LOCATION)), 0.25f);
     }
 
     @Override
     public ResourceLocation getTextureLocation(OstromiaEntity entity) {
-        return ResourceLocation.fromNamespaceAndPath(ClawsAndFeathers.MOD_ID, "нада/mods/Claws and Feathers/textures/Ostromia_texture.png");
+        return ResourceLocation.fromNamespaceAndPath(ClawsAndFeathers.MOD_ID, "textures/entity/ostromia_texture.png");
     }
 
     @Override

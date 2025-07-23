@@ -312,4 +312,4 @@ public class OstromiaAnimations {
                                     AnimationChannel.Interpolations.LINEAR),
                             new Keyframe(1.75f, KeyframeAnimations.degreeVec(-3f, 0f, 0f),
                                     AnimationChannel.Interpolations.LINEAR))).build();
-}
+    }

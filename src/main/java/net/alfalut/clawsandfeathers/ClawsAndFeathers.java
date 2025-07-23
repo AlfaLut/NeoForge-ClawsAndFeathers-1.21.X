@@ -2,7 +2,9 @@ package net.alfalut.clawsandfeathers;
 
 import net.alfalut.clawsandfeathers.block.ModBlocks;
 import net.alfalut.clawsandfeathers.entity.ModEntities;
+import net.alfalut.clawsandfeathers.entity.client.OstromiaRenderer;
 import net.alfalut.clawsandfeathers.item.ModItems;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
@@ -83,6 +85,7 @@ public class ClawsAndFeathers {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            EntityRenderers.register(ModEntities.OSTROMIA.get(), OstromiaRenderer::new);
 
         }
     }
